@@ -1,0 +1,38 @@
+$primary: #222;
+$secondary: #999;
+$white: #fff;
+$black: #000;
+$mainFont: "Poppins", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+// media queries
+@mixin xxl {
+  @media only screen and (max-width: 1400px) {
+    @content;
+  }
+}
+@mixin xl {
+  @media only screen and (max-width: 1200px) {
+    @content;
+  }
+}
+@mixin lg {
+  @media only screen and (max-width: 992px) {
+    @content;
+  }
+}
+@mixin md {
+  @media only screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin sm {
+  @media only screen and (max-width: 576px) {
+    @content;
+  }
+}
+@mixin cw($value) {
+  @media only screen and (max-width: $value) {
+    @content;
+  }
+}

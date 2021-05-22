@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+
+/***Bt css****/
+@import "css/bootstrap.min.css";
+@import "css/slick.css";
+@import "css/custom-style.css";
+
+/***Font fontawesome css****/
+@import "css/all.min.css"; 
+@import "css/light.min.css";
+@import "css/brands.min.css";
+@import "css/regular.min.css";
+@import "css/solid.min.css"; 
+@import "css/duotone.min.css";
+
+/**
+font-family: 'Poppins', sans-serif;
+font-family: 'Yesteryear', cursive;
+font-family: 'Muli', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+**/
+:root{
+	--mc:#222;
+	--sc:#999;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	margin: 0;
+	padding: 0px;
+	background: var(--sc);
+}
+.sticky {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+}
+.navbar-toggler {
+	background: var(--mc);
+}
+header, .ms, footer {
+	float: left;
+	width: 100%;
+}
+
+.main-nav nav ul li a:hover, .main-nav nav ul .active a, .main-nav nav ul .current-menu-item a, .main-nav nav ul li a:focus{
+	color:#000;
+}
+header .navbar {
+	margin: 0;
+	border: none;
+	padding: 8px 0px;
+	background: none;
+}
+.main-slider .carousel-item img {
+	-webkit-animation: zoom 20s;
+	animation: zoom 20s;
+	width: 100%;
+}
+@-webkit-keyframes zoom {
+ from {
+ -webkit-transform: scale(1, 1);
+}
+to {
+	-webkit-transform: scale(1.5, 1.5);
+}
+}
+ @keyframes zoom {
+ from {
+ transform: scale(1, 1);
+}
+to {
+	transform: scale(1.5, 1.5);
+}
+}
+
+.font_aw {
+    text-decoration: none;
+    color: #515151;
+}
+
+.font_aw:before {
+   font-family: "Font Awesome 5 Free";
+   content: "\f095";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight:900;
+   color:#000;
+}
+.font_aw2:before {
+   font-family:"Font Awesome 5 Pro";
+   content: "\f2b9";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+   font-weight:300;
+   color:#000;
+}
+.font_aw3:before {
+	font-family:"Font Awesome 5 Duotone";
+	font-style:normal;
+	font-weight:900;
+	content: "\f2b9";
+	display: inline-block;
+	padding-right: 3px;
+	vertical-align: middle;
+	color:#000;
+}
+
+/*****slick slider arrows css*
+.slick-arrow{
+	z-index:10;
+	position: absolute;
+	background: var(--mc);
+	border: none;
+	color: #fff;
+	height: 40px;
+	width: 40px;
+	font-size: 15px;
+}
+.slick-prev {
+	left: -10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.slick-next {
+	right: -10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+****/
+/***
+.owl-stage {
+	-webkit-transition: all 3s ease !important;
+	-moz-transition: all 3s ease !important;
+	-o-transition: all 3s ease !important;
+	-ms-transition: all 3s ease !important;
+	transition: all 3s ease !important;
+}
+side css
+.owl-controls {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.owl-nav {
+  color: #2676bd;
+}
+.owl-nav div {
+  padding: 10px 20px;
+}
+.owl-prev {
+  float: left;
+}
+.owl-prev {
+  float: left;
+}
+.owl-carousel.side-gap .owl-stage-outer {
+  border-radius: 6px;
+}
+.owl-next {
+  float: right;
+}
+down css
+.owl-controls {
+  margin: 20px 0;
+  text-align: center;
+}
+.owl-nav {
+  color: #e725a5;
+}
+.owl-nav div {
+  display: inline;
+  margin: 0 8px;
+  padding: 10px;
+}
+.owl-dots {
+  height: 20px;
+  display: table;
+  margin: 20px auto;
+}
+.owl-dots .owl-dot {
+  border: 1px solid #fff;
+  display: inline-block;
+  height: 15px;
+  margin: 0 5px;
+  width: 15px;
+}
+.owl-dot.active{
+	background:#fff;
+	}
+	***/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+}
+@media (max-width: 1024px) {
+}
+@media (max-width: 991px) {
+}
+
+
+@media (max-width: 768px) {
+	.slick-prev {
+	left: 0px;
+}
+.slick-next {
+	right: 0px;
+}
+
+}
+@media (max-width: 767px) {
+
+}
+@media (max-width: 480px) {
+}
